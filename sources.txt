@@ -1,0 +1,13 @@
+I used professor's module 6 repo for the following files:
+• app.js (entry point)
+• surveyController.js (controller in an MVC pattern)
+• data (data repertory to contain the statistics on questions, on the server side)
+• fruit.json
+• animal.json
+• color.json
+• public/assets (in order to be compatible with the instructions in the video, I used this same folder)
+• action.js (jQuery code which will do the POST when the survey is submitted)
+• views
+• niceSurvey.html (survey, static view for the participant)
+• showResults.ejs (results, dynamic view for the analysis)
+• package.json (package dependency manager)

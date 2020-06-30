@@ -1,0 +1,50 @@
+<html lang="en-US">
+<head>
+    <title>Survey Analysis</title>
+</head>
+
+<body>
+    <h1>Survey analysis</h1>
+    <h2> Number of Colors</h2>
+    <ul>
+    <% for (var i=0; i<results[0].length; i++){ %>
+        <li><%= results[0][i].colors %> :  <%= results[0][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>Likelihood</h2>
+    <ul>
+    <% for (var i=0; i<results[1].length; i++){ %>
+        <li><%= results[1][i].likely %> :  <%= results[1][i].count %></li>
+    <% } %>    
+    </ul>
+    <h2>Ease of use</h2>
+    <ul>
+    <% for (var i=0; i<results[2].length; i++){ %>
+        <li><%= results[2][i].ease %> :  <%= results[2][i].count %></li>
+    <% } %>    
+    </ul>
+
+    <h2>Purpose</h2>
+    <ul>
+        <% for (var i=0; i<results[3].length; i++){ %>
+            <li><%= results[3][i].purpose %> :  <%= results[3][i].count %></li>
+        <% } %>
+    </ul>
+
+    <h2>Products</h2>
+    <ul>
+        <% for (var i=0; i<results[4].length; i++){ %>
+            <li><%= results[4][i].products %> :  <%= results[4][i].count %></li>
+        <% } %>
+    </ul>
+
+    <h2>Finding products scale</h2>
+    <ul>
+        <% for (var i=0; i<results[5].length; i++){ %>
+            <li><%= results[5][i].scale %> :  <%= results[5][i].count %></li>
+        <% } %>
+    </ul>
+
+
+</body>
+</html>
